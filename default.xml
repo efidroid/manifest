@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="git://github.com" />
+
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
+
+  <remote  name="android"
+           fetch="https://android.googlesource.com" />
+
+  <default revision="refs/heads/master"
+           remote="github"
+           sync-c="true"
+           sync-j="4" />
+
+  <project path="build" name="efidroid/build" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <!-- target compilers -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="android" revision="refs/tags/android-5.1.0_r3" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-gnueabihf-4.9" name="efidroid/prebuilts_gcc_linux-x86_arm_arm-linux-gnueabihf-4.9" />
+
+  <!-- host tools -->
+  <project path="external/host/mkbootimg" name="efidroid/external_mkbootimg" />
+
+  <!-- UEFI -->
+  <project path="uefi/edk2" name="efidroid/edk2" />
+  <project path="uefi/edk2packages/LittleKernelPkg" name="efidroid/uefi_edk2packages_LittleKernelPkg" />
+  <project path="uefi/edk2packages/ExtPkg" name="efidroid/uefi_edk2packages_ExtPkg" />
+  <project path="uefi/edk2packages/EFIDroidPkg" name="efidroid/uefi_edk2packages_EFIDroidPkg" />
+  <project path="uefi/lkmodules/uefiapi" name="efidroid/uefi_lkmodules_uefiapi" />
+
+</manifest>
