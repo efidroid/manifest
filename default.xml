@@ -33,4 +33,7 @@
   <project path="uefi/edk2packages/EFIDroidPkg" name="efidroid/uefi_edk2packages_EFIDroidPkg" />
   <project path="uefi/lkmodules/uefiapi" name="efidroid/uefi_lkmodules_uefiapi" />
 
+  <!-- LK -->
+  <project path="lk/common/master" name="efidroid/lk" />
+
 </manifest>
