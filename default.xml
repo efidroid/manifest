@@ -22,6 +22,7 @@
   <!-- target compilers -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="android" revision="refs/tags/android-5.1.0_r3" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-gnueabihf-4.9" name="efidroid/prebuilts_gcc_linux-x86_arm_arm-linux-gnueabihf-4.9" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-gnueabi-4.9" name="efidroid/prebuilts_gcc_linux-x86_arm_arm-linux-gnueabi-4.9" />
 
   <!-- host tools -->
   <project path="external/host/mkbootimg" name="efidroid/external_mkbootimg" />
