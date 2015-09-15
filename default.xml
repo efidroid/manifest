@@ -26,6 +26,7 @@
 
   <!-- projects -->
   <project path="projects/mkbootimg" name="efidroid/projects_mkbootimg" />
+  <project path="projects/multiboot" name="efidroid/projects_multiboot" />
 
   <!-- UEFI -->
   <project path="uefi/edk2" name="efidroid/edk2" />
