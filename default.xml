@@ -31,7 +31,7 @@
   <!-- UEFI -->
   <project path="uefi/edk2" name="efidroid/edk2" />
   <project path="uefi/edk2packages/LittleKernelPkg" name="efidroid/uefi_edk2packages_LittleKernelPkg" />
-  <project path="uefi/edk2packages/ExtPkg" name="efidroid/uefi_edk2packages_ExtPkg" />
+  <project path="uefi/edk2packages/GrubFSPkg" name="efidroid/uefi_edk2packages_GrubFSPkg" />
   <project path="uefi/edk2packages/EFIDroidPkg" name="efidroid/uefi_edk2packages_EFIDroidPkg" />
   <project path="uefi/lkmodules/uefiapi" name="efidroid/uefi_lkmodules_uefiapi" />
 
