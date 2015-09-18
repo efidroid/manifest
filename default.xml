@@ -36,6 +36,6 @@
   <project path="uefi/lkmodules/uefiapi" name="efidroid/uefi_lkmodules_uefiapi" />
 
   <!-- LK -->
-  <project path="lk/common/master" name="efidroid/lk" />
+  <project path="bootloader/lk/common/master" name="efidroid/bootloader_lk" />
 
 </manifest>
