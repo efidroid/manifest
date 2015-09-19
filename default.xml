@@ -24,8 +24,8 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-architoolchain-linux-gnueabihf-5.2" name="ArchiDroid/Toolchain" revision="architoolchain-5.2-arm-linux-gnueabihf" />
 
   <!-- projects -->
-  <project path="projects/mkbootimg" name="efidroid/projects_mkbootimg" />
-  <project path="projects/multiboot" name="efidroid/projects_multiboot" />
+  <project path="modules/mkbootimg" name="efidroid/modules_mkbootimg" />
+  <project path="modules/multiboot" name="efidroid/modules_multiboot" />
 
   <!-- UEFI -->
   <project path="uefi/edk2" name="efidroid/edk2" />
