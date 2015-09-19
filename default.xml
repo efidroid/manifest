@@ -10,6 +10,9 @@
   <remote  name="android"
            fetch="https://android.googlesource.com" />
 
+  <remote  name="kernel"
+           fetch="git://git.kernel.org" />
+
   <default revision="refs/heads/master"
            remote="github"
            sync-c="true"
@@ -23,9 +26,13 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="android" revision="refs/tags/android-5.1.0_r3" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-architoolchain-linux-gnueabihf-5.2" name="ArchiDroid/Toolchain" revision="architoolchain-5.2-arm-linux-gnueabihf" />
 
-  <!-- projects -->
+  <!-- modules -->
   <project path="modules/mkbootimg" name="efidroid/modules_mkbootimg" />
   <project path="modules/multiboot" name="efidroid/modules_multiboot" />
+  <project path="modules/tracy" name="efidroid/modules_tracy" />
+  <project path="modules/util-linux" name="pub/scm/utils/util-linux/util-linux" remote="kernel" revision="stable/v2.26" />
+  <project path="modules/pcre" name="platform/external/pcre" remote="android" revision="refs/tags/android-5.1.1_r18" />
+  <project path="modules/libselinux" name="platform/external/libselinux" remote="android" revision="refs/tags/android-5.1.1_r18" />
 
   <!-- UEFI -->
   <project path="uefi/edk2" name="efidroid/edk2" />
