@@ -35,6 +35,7 @@
   <project path="modules/tracy" name="efidroid/modules_tracy" />
   <project path="modules/util-linux" name="pub/scm/utils/util-linux/util-linux" remote="kernel" revision="stable/v2.26" />
   <project path="modules/busybox" name="busybox" remote="busybox" />
+  <project path="modules/selinux" name="SELinuxProject/selinux" />
 
   <!-- UEFI -->
   <project path="uefi/edk2" name="efidroid/edk2" />
