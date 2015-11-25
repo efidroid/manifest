@@ -13,6 +13,9 @@
   <remote  name="kernel"
            fetch="git://git.kernel.org" />
 
+  <remote  name="busybox"
+           fetch="git://git.busybox.net" />
+
   <default revision="refs/heads/master"
            remote="github"
            sync-c="true"
@@ -31,6 +34,7 @@
   <project path="modules/multiboot" name="efidroid/modules_multiboot" />
   <project path="modules/tracy" name="efidroid/modules_tracy" />
   <project path="modules/util-linux" name="pub/scm/utils/util-linux/util-linux" remote="kernel" revision="stable/v2.26" />
+  <project path="modules/busybox" name="busybox" remote="busybox" />
 
   <!-- UEFI -->
   <project path="uefi/edk2" name="efidroid/edk2" />
