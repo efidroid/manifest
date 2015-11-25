@@ -31,8 +31,6 @@
   <project path="modules/multiboot" name="efidroid/modules_multiboot" />
   <project path="modules/tracy" name="efidroid/modules_tracy" />
   <project path="modules/util-linux" name="pub/scm/utils/util-linux/util-linux" remote="kernel" revision="stable/v2.26" />
-  <project path="modules/pcre" name="platform/external/pcre" remote="android" revision="refs/tags/android-5.1.1_r18" />
-  <project path="modules/libselinux" name="platform/external/libselinux" remote="android" revision="refs/tags/android-5.1.1_r18" />
 
   <!-- UEFI -->
   <project path="uefi/edk2" name="efidroid/edk2" />
