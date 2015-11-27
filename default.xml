@@ -36,6 +36,7 @@
   <project path="modules/util-linux" name="pub/scm/utils/util-linux/util-linux" remote="kernel" revision="stable/v2.27" />
   <project path="modules/busybox" name="busybox" remote="busybox" />
   <project path="modules/selinux" name="SELinuxProject/selinux" />
+  <project path="modules/inih" name="benhoyt/inih" />
 
   <!-- UEFI -->
   <project path="uefi/edk2" name="efidroid/edk2" />
