@@ -50,6 +50,6 @@
   <project path="uefi/lkmodules/uefiapi" name="efidroid/uefi_lkmodules_uefiapi" />
 
   <!-- LK -->
-  <project path="bootloader/lk/common/master" name="efidroid/bootloader_lk" />
+  <project path="bootloader/lk/common/LA.BF64" name="efidroid/bootloader_lk" revision="common/LA.BF64" />
 
 </manifest>
