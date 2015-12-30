@@ -41,6 +41,7 @@
   <project path="modules/selinux" name="SELinuxProject/selinux" />
   <project path="modules/inih" name="benhoyt/inih" />
   <project path="modules/freetype2" name="freetype/freetype2" remote="savannah" />
+  <project path="modules/libaroma" name="amarullz/libaroma" />
 
   <!-- UEFI -->
   <project path="uefi/edk2" name="efidroid/edk2" />
