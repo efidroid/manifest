@@ -43,6 +43,7 @@
   <project path="modules/libaroma" name="amarullz/libaroma" />
   <project path="modules/e2fsprogs" name="pub/scm/fs/ext2/e2fsprogs" remote="kernel" revision="refs/tags/v1.42.13" />
   <project path="modules/f2fs-tools" name="pub/scm/linux/kernel/git/jaegeuk/f2fs-tools" remote="kernel" revision="refs/tags/v1.6.0" />
+  <project path="modules/libfuse" name="libfuse/libfuse" />
 
   <!-- UEFI -->
   <project path="uefi/edk2" name="efidroid/edk2" />
