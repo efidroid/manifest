@@ -38,7 +38,7 @@
   <project path="modules/tracy" name="efidroid/modules_tracy" />
   <project path="modules/util-linux" name="pub/scm/utils/util-linux/util-linux" remote="kernel" />
   <project path="modules/busybox" name="busybox" remote="busybox" />
-  <project path="modules/selinux" name="SELinuxProject/selinux" />
+  <project path="modules/selinux" name="SELinuxProject/selinux" revision="android-m" />
   <project path="modules/inih" name="benhoyt/inih" />
   <project path="modules/libaroma" name="aromadev/libaroma" />
   <project path="modules/e2fsprogs" name="pub/scm/fs/ext2/e2fsprogs" remote="kernel" revision="refs/tags/v1.42.13" />
