@@ -28,10 +28,6 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <!-- target compilers -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="android" revision="refs/tags/android-5.1.0_r3" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-architoolchain-linux-gnueabihf-5.2" name="ArchiDroid/Toolchain" revision="architoolchain-5.2-arm-linux-gnueabihf" />
-
   <!-- modules -->
   <project path="modules/mkbootimg" name="efidroid/modules_mkbootimg" />
   <project path="modules/multiboot" name="efidroid/modules_multiboot" />
