@@ -29,6 +29,7 @@
   </project>
 
   <!-- modules -->
+  <project path="modules/dtbconvert" name="efidroid/modules_dtbconvert" />
   <project path="modules/mkbootimg" name="efidroid/modules_mkbootimg" />
   <project path="modules/multiboot" name="efidroid/modules_multiboot" />
   <project path="modules/tracy" name="efidroid/modules_tracy" />
