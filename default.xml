@@ -43,6 +43,7 @@
   <project path="modules/libfuse" name="libfuse/libfuse" revision="refs/tags/fuse_2_9_5" />
   <project path="modules/squirrel" name="albertodemichelis/squirrel" />
   <project path="modules/libboot" name="efidroid/modules_libboot" />
+  <project path="modules/dtc" name="pub/scm/utils/dtc/dtc" remote="kernel" revision="refs/heads/master" />
 
   <!-- UEFI -->
   <project path="uefi/edk2" name="efidroid/edk2" />
