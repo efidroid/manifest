@@ -40,7 +40,7 @@
   <project path="modules/libfuse" name="libfuse/libfuse" revision="refs/tags/fuse_2_9_5" />
   <project path="modules/squirrel" name="albertodemichelis/squirrel" />
   <project path="modules/util-linux" name="pub/scm/utils/util-linux/util-linux" remote="kernel" revision="refs/heads/stable/v2.28" />
-  <project path="modules/dtc" name="pub/scm/utils/dtc/dtc" remote="kernel" revision="refs/heads/master" />
+  <project path="modules/dtc" name="pub/scm/utils/dtc/dtc" remote="kernel" revision="refs/tags/v1.4.1" />
   <project path="modules/e2fsprogs" name="pub/scm/fs/ext2/e2fsprogs" remote="kernel" revision="refs/tags/v1.43.1" />
   <project path="modules/f2fs-tools" name="pub/scm/linux/kernel/git/jaegeuk/f2fs-tools" remote="kernel" revision="refs/tags/v1.6.1" />
   <project path="modules/busybox" name="busybox" remote="busybox" revision="refs/heads/1_25_stable" />
