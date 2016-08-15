@@ -33,7 +33,7 @@
   <project path="modules/mkbootimg" name="efidroid/modules_mkbootimg" />
   <project path="modules/multiboot" name="efidroid/modules_multiboot" />
   <project path="modules/libaroma" name="efidroid/modules_libaroma" />
-  <project path="modules/tracy" name="efidroid/modules_tracy" />
+  <project path="modules/libsyshook" name="efidroid/modules_libsyshook" />
   <project path="modules/libboot" name="efidroid/modules_libboot" />
   <project path="modules/selinux" name="SELinuxProject/selinux" revision="android-m" />
   <project path="modules/inih" name="benhoyt/inih" />
