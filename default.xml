@@ -28,21 +28,24 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <!-- modules -->
+  <!-- modules for compilation -->
   <project path="modules/dtbtools" name="efidroid/modules_dtbtools" />
   <project path="modules/mkbootimg" name="efidroid/modules_mkbootimg" />
-  <project path="modules/multiboot" name="efidroid/modules_multiboot" />
-  <project path="modules/libaroma" name="efidroid/modules_libaroma" />
-  <project path="modules/libsyshook" name="efidroid/modules_libsyshook" />
-  <project path="modules/libboot" name="efidroid/modules_libboot" />
-  <project path="modules/selinux" name="SELinuxProject/selinux" revision="android-m" />
-  <project path="modules/inih" name="benhoyt/inih" />
-  <project path="modules/libfuse" name="libfuse/libfuse" revision="refs/tags/fuse_2_9_5" />
-  <project path="modules/squirrel" name="albertodemichelis/squirrel" />
-  <project path="modules/util-linux" name="pub/scm/utils/util-linux/util-linux" remote="kernel" revision="refs/heads/stable/v2.28" />
   <project path="modules/dtc" name="pub/scm/utils/dtc/dtc" remote="kernel" revision="refs/tags/v1.4.1" />
+  <!-- modules for bootloaders -->
+  <project path="modules/libaroma" name="efidroid/modules_libaroma" />
+  <project path="modules/libboot" name="efidroid/modules_libboot" />
+  <!-- modules for multiboot -->
+  <project path="modules/multiboot" name="efidroid/modules_multiboot" />
+  <project path="modules/libsyshook" name="efidroid/modules_libsyshook" />
+  <project path="modules/selinux" name="SELinuxProject/selinux" revision="android-m" />
+  <project path="modules/libfuse" name="libfuse/libfuse" revision="refs/tags/fuse_2_9_5" />
+  <project path="modules/util-linux" name="pub/scm/utils/util-linux/util-linux" remote="kernel" revision="refs/heads/stable/v2.28" />
   <project path="modules/e2fsprogs" name="pub/scm/fs/ext2/e2fsprogs" remote="kernel" revision="refs/tags/v1.43.1" />
   <project path="modules/busybox" name="busybox" remote="busybox" revision="refs/heads/1_25_stable" />
+  <!-- commonly used modules -->
+  <project path="modules/inih" name="benhoyt/inih" />
+  <project path="modules/squirrel" name="albertodemichelis/squirrel" />
 
   <!-- UEFI -->
   <project path="uefi/edk2" name="efidroid/edk2" />
