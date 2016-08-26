@@ -30,7 +30,6 @@
 
   <!-- modules for compilation -->
   <project path="modules/dtbtools" name="efidroid/modules_dtbtools" />
-  <project path="modules/mkbootimg" name="efidroid/modules_mkbootimg" />
   <project path="modules/dtc" name="pub/scm/utils/dtc/dtc" remote="kernel" revision="refs/tags/v1.4.1" />
   <!-- modules for bootloaders -->
   <project path="modules/libaroma" name="efidroid/modules_libaroma" />
