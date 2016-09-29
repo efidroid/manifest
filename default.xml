@@ -39,7 +39,8 @@
   <project path="modules/libsyshook" name="efidroid/modules_libsyshook" />
   <project path="modules/dynfilefs" name="efidroid/modules_dynfilefs" />
   <project path="modules/sepolicyinject" name="efidroid/modules_sepolicyinject" />
-  <project path="modules/selinux" name="SELinuxProject/selinux" revision="android-m" />
+  <project path="modules/selinux_6" name="platform/external/selinux" remote="android" revision="refs/tags/android-6.0.1_r68" />
+  <project path="modules/selinux_7" name="platform/external/selinux" remote="android" revision="refs/tags/android-7.0.0_r6" />
   <project path="modules/libfuse" name="libfuse/libfuse" revision="refs/tags/fuse_2_9_5" />
   <project path="modules/util-linux" name="pub/scm/utils/util-linux/util-linux" remote="kernel" revision="refs/heads/stable/v2.28" />
   <project path="modules/e2fsprogs" name="pub/scm/fs/ext2/e2fsprogs" remote="kernel" revision="refs/tags/v1.43.3" />
