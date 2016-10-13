@@ -57,7 +57,7 @@
   <project path="uefi/lkl" name="lkl/linux" />
 
   <!-- LK -->
-  <project path="bootloader/lk/common/LA.BF64" name="efidroid/bootloader_lk" revision="common/LA.BF64" />
+  <project path="bootloader/lk/qcom/LA.BF64" name="efidroid/bootloader_lk" revision="qcom/LA.BF64" />
 
   <!-- apps -->
   <project path="uefi/apps/EFIDroidUi" name="efidroid/uefi_apps_EFIDroidUi" />
