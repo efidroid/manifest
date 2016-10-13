@@ -53,10 +53,10 @@
   <!-- UEFI -->
   <project path="uefi/edk2" name="efidroid/edk2" />
   <project path="uefi/edk2packages/LittleKernelPkg" name="efidroid/uefi_edk2packages_LittleKernelPkg" />
-  <project path="uefi/lkmodules/shared" name="efidroid/uefi_lkmodules_shared" />
   <project path="uefi/lkl" name="lkl/linux" />
 
   <!-- LK -->
+  <project path="bootloader/lk/common/shared" name="efidroid/bootloader_lk" revision="common/shared" />
   <project path="bootloader/lk/qcom/LA.BF64" name="efidroid/bootloader_lk" revision="qcom/LA.BF64" />
 
   <!-- apps -->
