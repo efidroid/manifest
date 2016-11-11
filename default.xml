@@ -62,4 +62,7 @@
   <project path="uefi/apps/EFIDroidUi" name="efidroid/uefi_apps_EFIDroidUi" />
   <project path="uefi/apps/LKL" name="efidroid/uefi_apps_LKL" />
 
+  <!-- OTA -->
+  <project path="ota" name="efidroid/ota" />
+
 </manifest>

@@ -8,7 +8,6 @@
   <project path="uefi/apps/grub" name="grub" remote="savannah" />
 
   <!-- misc -->
-  <project path="ota" name="efidroid/ota" />
   <project path="website" name="efidroid/efidroid.github.io" />
 </manifest>
 
