@@ -38,6 +38,7 @@
   <project path="modules/multiboot" name="efidroid/modules_multiboot" />
   <project path="modules/libsyshook" name="efidroid/modules_libsyshook" />
   <project path="modules/dynfilefs" name="efidroid/modules_dynfilefs" />
+  <project path="modules/emuwritefs" name="efidroid/modules_emuwritefs" />
   <project path="modules/sepolicyinject" name="efidroid/modules_sepolicyinject" />
   <project path="modules/selinux_6" name="platform/external/selinux" remote="android" revision="refs/tags/android-6.0.1_r74" />
   <project path="modules/selinux_7" name="platform/external/selinux" remote="android" revision="refs/tags/android-7.1.0_r7" />
