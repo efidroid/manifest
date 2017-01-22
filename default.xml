@@ -50,6 +50,7 @@
   <!-- commonly used modules -->
   <project path="modules/inih" name="benhoyt/inih" />
   <project path="modules/squirrel" name="albertodemichelis/squirrel" />
+  <project path="modules/loki" name="efidroid/modules_loki" />
 
   <!-- UEFI -->
   <project path="uefi/edk2" name="efidroid/edk2" />
