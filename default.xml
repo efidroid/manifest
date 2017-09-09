@@ -7,63 +7,23 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
-  <remote  name="android"
-           fetch="https://android.googlesource.com" />
-
-  <remote  name="kernel"
-           fetch="git://git.kernel.org" />
-
-  <remote  name="busybox"
-           fetch="git://git.busybox.net" />
-
-  <remote  name="savannah"
-           fetch="git://git.savannah.gnu.org" />
-
   <default revision="refs/heads/master"
            remote="github"
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="efidroid/build" >
+  <project path="build" name="efidroid/build">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <!-- modules for compilation -->
-  <project path="modules/dtbtools" name="efidroid/modules_dtbtools" />
-  <project path="modules/dtc" name="pub/scm/utils/dtc/dtc" remote="kernel" revision="refs/tags/v1.4.2" />
-  <!-- modules for bootloaders -->
-  <project path="modules/libaroma" name="efidroid/modules_libaroma" />
-  <project path="modules/libboot" name="efidroid/modules_libboot" />
-  <!-- modules for multiboot -->
-  <project path="modules/multiboot" name="efidroid/modules_multiboot" />
-  <project path="modules/libsyshook" name="efidroid/modules_libsyshook" />
-  <project path="modules/dynfilefs" name="efidroid/modules_dynfilefs" />
-  <project path="modules/emuwritefs" name="efidroid/modules_emuwritefs" />
-  <project path="modules/sepolicyinject" name="efidroid/modules_sepolicyinject" />
-  <project path="modules/selinux_6" name="platform/external/selinux" remote="android" revision="refs/tags/android-6.0.1_r74" />
-  <project path="modules/selinux_7" name="platform/external/selinux" remote="android" revision="refs/tags/android-7.1.0_r7" />
-  <project path="modules/pcre" name="platform/external/pcre" remote="android" revision="refs/tags/android-7.1.0_r7" />
-  <project path="modules/libfuse" name="efidroid/libfuse" />
-  <project path="modules/util-linux" name="pub/scm/utils/util-linux/util-linux" remote="kernel" revision="refs/heads/stable/v2.28" />
-  <project path="modules/e2fsprogs" name="pub/scm/fs/ext2/e2fsprogs" remote="kernel" revision="refs/tags/v1.43.3" />
-  <project path="modules/busybox" name="busybox" remote="busybox" revision="refs/heads/1_25_stable" />
-  <!-- commonly used modules -->
-  <project path="modules/inih" name="benhoyt/inih" />
-  <project path="modules/squirrel" name="albertodemichelis/squirrel" />
-
   <!-- UEFI -->
   <project path="uefi/edk2" name="efidroid/edk2" />
-  <project path="uefi/edk2packages/LittleKernelPkg" name="efidroid/uefi_edk2packages_LittleKernelPkg" />
+  <project path="uefi/edk2packages/EFIDroidGPLPkg" name="efidroid/uefi_edk2packages_EFIDroidGPLPkg" />
+  <project path="uefi/edk2packages/EFIDroidLKLPkg" name="efidroid/uefi_edk2packages_EFIDroidLKLPkg" />
+  <project path="uefi/edk2packages/EFIDroidPkg" name="efidroid/uefi_edk2packages_EFIDroidPkg" />
   <project path="uefi/lkl" name="lkl/linux" />
 
-  <!-- LK -->
-  <project path="bootloader/lk/common/shared" name="efidroid/bootloader_lk" revision="common/shared" />
-
-  <!-- apps -->
-  <project path="uefi/apps/EFIDroidUi" name="efidroid/uefi_apps_EFIDroidUi" />
-  <project path="uefi/apps/LKL" name="efidroid/uefi_apps_LKL" />
-
-  <!-- OTA -->
-  <project path="ota" name="efidroid/ota" />
+  <!-- modules -->
+  <project path="modules/tslib" name="kergoth/tslib" revision="refs/tags/1.14" />
 
 </manifest>
