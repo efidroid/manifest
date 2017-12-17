@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- modules -->
-  <project path="modules/parted" name="parted" remote="savannah" />
-  <project path="modules/gnulib" name="gnulib" remote="savannah" />
-
   <!-- apps -->
   <project path="uefi/apps/grub" name="grub" remote="savannah" />
 
