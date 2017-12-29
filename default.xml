@@ -21,7 +21,7 @@
   <project path="uefi/edk2packages/EFIDroidGPLPkg" name="efidroid/uefi_edk2packages_EFIDroidGPLPkg" />
   <project path="uefi/edk2packages/EFIDroidLKLPkg" name="efidroid/uefi_edk2packages_EFIDroidLKLPkg" />
   <project path="uefi/edk2packages/EFIDroidPkg" name="efidroid/uefi_edk2packages_EFIDroidPkg" />
-  <project path="uefi/lkl" name="lkl/linux" />
+  <project path="uefi/lkl" name="efidroid/lkl-linux" />
 
   <!-- modules -->
   <project path="modules/tslib" name="kergoth/tslib" revision="refs/tags/1.14" />
