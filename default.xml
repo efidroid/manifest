@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="github"
-           fetch="git://github.com" />
+           fetch="https://github.com" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
@@ -11,13 +11,13 @@
            fetch="https://android.googlesource.com" />
 
   <remote  name="kernel"
-           fetch="git://git.kernel.org" />
+           fetch="https://git.kernel.org" />
 
   <remote  name="busybox"
-           fetch="git://git.busybox.net" />
+           fetch="https://git.busybox.net" />
 
   <remote  name="savannah"
-           fetch="git://git.savannah.gnu.org" />
+           fetch="https://git.savannah.gnu.org" />
 
   <default revision="refs/heads/master"
            remote="github"
